@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>tab#</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<!--<script type="text/javascript">
+function Warn() {
+               alert ("ORDER DETAILS:\n• Maximum order of 10 gift certificates at a time online.\n• Pick-Up Option: Orders must be placed at least one week before pick-up time.\n• Mailed Option: Please allow 3-5 business days once payment is received.");
+               
+            }
+</script> -->
+
+<script>
+         function functionAlert(msg, myYes) {
+            var confirmBox = $("#confirm");
+            confirmBox.find(".message").text(msg);
+            confirmBox.find(".yes").unbind().click(function() {
+               confirmBox.hide();
+            });
+            confirmBox.find(".yes").click(myYes);
+            confirmBox.show();
+         }
+      </script>
+</head>
+<body>
+
+ <article id="box">
+ 	<img src="images/cow.png" id="pic">
+ 	<img src="images/Logo.png" id="pic2">
+			</article>
+<div class="buttons">
+<a id="Bone" href="products.html">Products</a>
+
+<a id="Btwo" href="../customers/customers.html">Customers</a>
+
+<a id="Bthree" href="../vendors/vendors.html">Vendors</a>
+
+<a id="Bfour" href="../home.html">Home</a>
+
+<a id="Bfive" href="../contact/contact.html">Contact Us</a>
+</div>
+ <div id="Cname"> Grazed Cow </div>
+
+<div id="mainbody">
+	<h2>At Grazed Cow, we search high and low to find the world’s best dairy products to offer to our customers.<br>
+	&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;We offer only products that meet our stringent quality and safety standards.</h2>
+	<div id="giftcard">
+		<h3> Gift Cards</h3>
+		<img src="images/giftcard.jpg" id="img1"> 
+
+		<p id="para1"> Gift Cards for our dairy store are available for purchase online as well as in our store.  Online gift cards of various amounts such as $50,$100 or $500 can be purchased and paid for with a credit card, debit card, or Paypal. In the purchase notes section at checkout you may write in the name of the recipient.  Once the purchase is completed you will receive an email confirmation of the purchase, this can be forwarded to the recipient, they can then take the printed email into the farm store to redeem.	
+		</p>
+		<span id="moredetails"> For more details : </span>
+	</div>
+	<div id="confirm">
+         <div class="message">ORDER DETAILS:<br>• Maximum order of 10 gift certificates at a time online.<br>• Pick-Up Option: Orders must be placed at least one week before pick-up time.<br>• Mailed Option: Please allow 3-5 business days once payment is received.</div>
+            <button class="yes">OK</button>
+         </div>
+      <input type="button" value="Click Me" onclick="functionAlert();" id="btn" />
+
+
+
+	<div id="groundbeef" style="float: left;">
+		<h3> Grass Fed Beef</h3>
+
+		<img src="images/grassfedbeef.jpg" id="img2">
+		<p id="para2"> All of our beef is 100% Grass Fed and Grass Finished, locally-raised with no grains, antibiotics, or growth hormones.  We usually have a good selection of beef cuts available in our farm store for purchase by the pound, including ground beef, steaks, roasts, organ meats, and bones.  If there is a specific cut of beef you are looking for please call the farm store in advance to make sure we have it in stock.</p>
+	</div>
+	<div id="pasturedmilk" style="float: left;">
+		<h3> Raw Milk</h3>
+		<img src="images/rawmilk.jpg" id="img3">
+		<p id="para3"> We are one of a handful of farms in Illinois licensed to sell raw milk.  We produce fresh, high quality raw milk from our small herd of purebred Guernsey cows.We currently offer two ways to purchase raw milk -  purchase online and pickup in the farm store (limited amount available on website beginning Sunday afternoon), or visit the farm store and purchase directly by the half gallon. We have fresh milk available for sale every morning on a first come first served basis.</p>
+	</div>
+
+	<div id="pasturedpoultry" style="float: left;">
+		<h3>Pastured Poultry</h3>
+		<img src="images/poultry.jpg" id="img4">
+		<p id="para4"> All of our chickens  are raised from day old chicks on our farm with certified organic feed.We usually have frozen whole chickens available in the farm store for purchase.  If you would like to order a large number of chickens or a fresh (not frozen) chicken, please order online as fresh chickens are only available for 3 days after our processing dates. Our chicken is bought by Costco for their rotisserie chicken sold in their stores worldwide.</p>
+	</div>
+	<div id="cheese" style="float: left;">
+		<h3> Cheese </h3>
+		<img src="images/cheese.jpg" id="img5">
+		<p id="para3"> Our fresh mozzarella is a fresh, milky cheese great for salads and appetizers.The cheese is packed in water to keep it fresh.The mozzarella cheese comes in retail and foodservice containers of perline (pearl size), ciliegine (cherry size), bocconcini (ball size), ovoline (egg size), medallions, 8 oz. balls, 1# balls, and 1# logs.  We also offer a marinated ciliegine (marinated in an olive oil/canola oil blend with our own spice mix) in retail and foodservice containers.Our fresh mozzarella is now also available in curd form to pull your own fresh mozzarella by hand.</p>
+	</div>
+
+
+</div> <!-- main body-- >
+
+
+</body>
+</html>

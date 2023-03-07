@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>tab#</title>
+	<link rel="stylesheet" href="css/styles.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+</head>
+<body>
+<script>
+         function functionAlert(msg, myYes) {
+            var confirmBox = $("#confirm");
+            confirmBox.find(".message").text(msg);
+            confirmBox.find(".yes").unbind().click(function() {
+               confirmBox.hide();
+            });
+            confirmBox.find(".yes").click(myYes);
+            confirmBox.show();
+         }
+      </script>
+      
+ <article id="box">
+ 	<img src="images/cow.png" id="pic">
+ 	<img src="images/Logo.png" id="pic2">
+			</article>
+<div class="buttons">
+<a id="Bone" href="../products/products.html">Products</a>
+
+<a id="Btwo" href="customers.html">Customers</a>
+
+<a id="Bthree" href="../vendors/vendors.html">Vendors</a>
+
+<a id="Bfour" href="../home.html">Home</a>
+
+<a id="Bfive" href="../contact/contact.html">Contact Us</a>
+</div>
+ <div id="Cname"> Grazed Cow </div>
+ 	
+ <p id="te"> 
+ 	Some of our customers: 
+ </p>
+ 
+ <article id="box11">
+ 		 <P id="tes" >&#x2022; Walmart shoping center</P>
+ 		 <img src="images/960.jpg" id="picWalmart">
+
+ 		 <article id="WalArt"> Walmart is one of our biggest customers. They sell daily large ammounts of goods that we provide them.</article>
+ 		 <ul id="WalprodList">
+ 		 	<li>Gift Cards</li>
+ 		 	<li>Grass Fed Beef</li>
+ 		 	<li>fresh Cheese</li>
+ 		 </ul>
+<div id="confirm">
+         <div class="message">For more information about this partner please go to: www.walmart.com</div>
+            <button class="yes">OK</button>
+         </div>
+      <input type="button" value="More" onclick="functionAlert();" id="btn" />
+
+ </article>
+ 
+ <article id="box12">
+ 	<P id="tes1" >&#x2022; Costco Wholesale</P>
+ 	<img src="images/1000.jpg" id="picCostco">
+
+ 	<article id="CostcoArticle"> Costco Wholesale is one of our greatest partners. You can find our fresh products on their shelves.</article>
+ 			<ul id="CostcoList">
+ 				<li>Poultry Chicken</li>
+ 				<li>Raw milk</li>
+ 				<li>Fresh eggs</li>
+ 			</ul>
+
+
+ </article>
+
+ 	<article id="box13">
+ 		<p id="tes2"> &#x2022; Gordon Food Service </p>
+ 		<img src="images/GFS.jpg" id="picGFS">
+
+ 		<article id="GFSarticle">GFS uses our fresh and quality products to create their amazing meals.</article>
+ 		<ul id="gfsList">
+ 			<li>Fresh Eggs</li>
+ 			<li>Grass Fed Beef</li>
+ 			<li>Cheese</li>
+ 		</ul>
+ 	</article>
+ 
+ 	<div class="end">
+ 		   &nbsp
+</body>
+</html>

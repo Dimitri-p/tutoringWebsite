@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+	<title>tab#</title>
+	<link rel="stylesheet" href="css/styles.css">
+
+</head>
+<body>
+
+ <article id="box">
+ 	<img src="images/cow.png" id="pic">
+ 	<img src="images/Logo.png" id="pic2">
+			</article>
+
+<a id="Bone" href="products/products.html">Products</a>
+
+<a id="Btwo" href="customers/customers.html">Customers</a>
+
+<a id="Bthree" href="vendors/vendors.html">Vendors</a>
+
+<a id="Bfour" href="home.html">Home</a>
+
+<a id="Bfive" href="contact/contact.html">Contact Us</a>
+
+ <div id="Cname"> Grazed Cow </div>
+
+</div>
+<h1 id="quote">"Best milk in town, best quality you will ever have." 
+</h1>
+
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/rq.png" style="width:60%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/4.png" style="width:60%">
+ 
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/Old_cow.png" style="width:60%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/5a9c2e8ecfdac.image.png" style="width:60%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/3.png" style="width:60%">
+  
+</div>
+
+<div class="mySlides fade">
+  <div class="numbertext"></div>
+  <img src="images/6.png" style="width:60%">
+  
+</div>
+
+
+
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+ <span class="dot"></span> 
+  <span class="dot"></span> 
+  <span class="dot"></span> 
+<!-- <img src="images/rq.jpg" id="picC"> -->
+ 
+
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  var i;
+  var slides = document.getElementsByClassName("mySlides");
+  var dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 3000); // Change image every 2 seconds
+}
+</script>
+
+</body>
+
+</html>

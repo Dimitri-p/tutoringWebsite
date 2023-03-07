@@ -1,0 +1,130 @@
+body{
+	background-color: #77B52D;
+	float: left;
+	width: 100%;
+	margin: 0px;
+	padding: 0px;
+	overflow-x: hidden;
+}
+
+a:link{
+	
+	background-color: transparent;
+	text-decoration: none;
+}
+
+a:hover{
+	 text-decoration: underline;
+	 text-decoration: bold;
+}
+a:visited {
+  color: black;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:active {
+  color: black;
+   
+  text-decoration: none;
+  text-decoration-color: green;
+}
+
+#box{
+	position: fixed;
+ 	float: top;
+    z-index: 1;
+	height: 100px;
+	width: 2000px;
+	background-color: white;
+}
+
+#Bone{
+	position: fixed;
+	top: 26px;
+	left:  470px;
+	font-size: 30px;
+	 z-index: 1;
+	 font-family: calibri;
+	 color: gray;
+}
+
+#Btwo{
+	position: fixed;
+	left: 670px;
+	top: 26px;
+	font-size: 30px;
+	z-index: 1;
+	 font-family: calibri;
+	 color: gray;
+}
+
+
+#pic{
+	margin-top: 7px;
+	left: 5px;
+	width: 98px;
+    z-index: 1;
+}
+
+#pic2{
+	margin-top: 0px;
+	z-index: 1;
+	margin-left: -3px;
+}
+
+#Bthree{
+	position: fixed;
+	top: 26px;
+	left: 870px;
+	z-index: 1;
+	 font-family: calibri;
+	 font-size: 30px;
+	 color: gray;
+}
+
+#Cname{
+	margin-top: 7px;
+	left: 5px;
+}
+
+#Bfour{
+	position: fixed;
+	top: 26px;
+	left: 290px;
+	z-index: 1;
+	 font-family: calibri;
+	 font-size: 30px;
+	 color: gray;
+}
+
+#Bfive{
+	position: fixed;
+	top: 26px;
+	left: 1070px;
+	z-index: 1;
+	 font-family: calibri;
+	 font-size: 30px;
+	 color: gray;
+}
+
+
+#fo{
+	margin-top: -260px;
+	margin-left: 250px;
+
+}
+
+#pi6{
+	margin-top: 150px;
+	margin-left: 770px;
+	width: 400px;
+}
+
+#letter
+{
+	margin-top: 100px;
+	margin-right: 250px;
+	font-size: 30px;
+	text-align: center;
+}
